@@ -1,3 +1,13 @@
-body {
-    background: white
+#quizz {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#question {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#result {
+  margin-top: 10px;
 }
