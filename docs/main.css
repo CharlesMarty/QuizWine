@@ -8,6 +8,15 @@
   font-weight: bold;
 }
 
+#answer1 {
+  font-style: italic;
+}
+#answer2 {
+  font-style: italic;
+}
+
 #result {
   margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
 }

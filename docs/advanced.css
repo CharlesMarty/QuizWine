@@ -1,0 +1,14 @@
+#Intro {
+  font-family: "Gill Sans";
+  font-style: italic;
+}
+
+#Question {
+  font-family: "Courier New";
+  font-weight: bold;
+}
+
+#Answers {
+  font-family: "Cambria";
+  font-style: italic;
+}
