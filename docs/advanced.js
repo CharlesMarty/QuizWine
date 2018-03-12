@@ -1,7 +1,7 @@
 var Answer1 = document.querySelector("#answer1");
 var Answer2 = document.querySelector("#answer2");
 var Answer3 = document.querySelector("#answer3");
-var Result = document.querySelector("#result");
+var Result = document.querySelector("#Result");
 
 Answer1.addEventListener("click", wrong);
 Answer2.addEventListener("click", wrong);
