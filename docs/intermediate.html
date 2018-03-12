@@ -3,21 +3,32 @@
 
 <head>
     <title>Quizz for beginners</title>
+    <link rel="stylesheet" href="./Quizz.css">
 </head>
 
 <body>
+    <a href="./index.html">Main Page</a>
     <p>If you are here it means that you have an intermediate level</p>
-    <p>Try to answer this question:</p>
-    <div>
-        <p>
-            <strong>Where is Nebbiolo cultivated?</strong>
-        </p>
+    <p>Click on the right answer</p>
+    <div id="Question">
+        <p>Where is Nebbiolo cultivated?</p>
+    </div>
+    <div id="Answers">
         <ol>
-            <li>Chianti Classico DOCG</li>
-            <li>Barbaresco DOCG</li>
-            <li>Montepulciano DOCG</li>
+            <div id="answer1">
+                <li>Chianti Classico DOCG</li>
+            </div>
+            <div id="answer2">
+                <li>Barbaresco DOCG</li>
+            </div>
+            <div id="answer3">
+                <li>Montepulciano DOCG</li>
+            </div>
         </ol>
     </div>
+    <div id="Result"></div>
+
+    <script src="./intermediate.js"></script>
 
 </body>
 

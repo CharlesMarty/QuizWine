@@ -3,26 +3,35 @@
 
 <head>
     <title>Quizz for beginners</title>
-    <link rel="stylesheet" href="./advanced.css">
+    <link rel="stylesheet" href="./Quizz.css">
 </head>
 
 <body>
+    <a href="./index.html">Main Page</a>
     <div id="Intro">
         <p>Let's see if you are as good as you think!</p>
-        <p>Try to answer this question:</p>
+        <p>Click on the right answer</p>
     </div>
     <div id="Question">
         <p>
-            Which of these wines is a DOCG ?
+            Which of these wines is not a DOCG ?
         </p>
     </div>
     <div id="Answers">
         <ol>
-            <li>Chianti</li>
-            <li>Barbaresco</li>
-            <li>Valpollicella</li>
+            <div id="answer1">
+                <li>Chianti</li>
+            </div>
+            <div id="answer2">
+                <li>Barbaresco</li>
+            </div>
+            <div id="answer3">
+                <li>Valpolicella</li>
+            </div>
         </ol>
     </div>
+    <div id="Result"></div>
+    <script src="./advanced.js"></script>
 </body>
 
 </html>

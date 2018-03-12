@@ -3,24 +3,33 @@
 
 <head>
     <title>Quizz for beginners</title>
+    <link rel="stylesheet" href="./Quizz.css">
 </head>
 
 <body>
+    <a href="./index.html">Main Page</a>
     <p>If you are here it means that you are a beginner</p>
-    <p>Answer this question:</p>
+    <p>Click on the right answer</p>
 
-    <div>
-        <p>
-            <strong>What is the only black grape variety used in the Burgundy AOC?</strong>
-        </p>
+    <div id="Question">
+        <p>What is the only black grape variety used in the Burgundy AOC?</p>
+    </div>
+    <div id="Answers">
         <ol>
-            <li>Cabernet Sauvignon</li>
-            <li>Pinot Noir</li>
-            <li>Chardonnay</li>
+            <div id="answer1">
+                <li>Cabernet Sauvignon</li>
+            </div>
+            <div id="answer2">
+                <li>Pinot Noir</li>
+            </div>
+            <div id="answer3">
+                <li>Chardonnay</li>
+            </div>
         </ol>
     </div>
+    <div id="Result"></div>
 
-
+    <script src="./beginner.js"></script>
 
 </body>
 

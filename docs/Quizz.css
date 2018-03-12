@@ -1,0 +1,15 @@
+#Intro {
+}
+
+#Question {
+  font-weight: bold;
+}
+
+#Answers {
+  font-style: italic;
+}
+
+#Result {
+  font-weight: bold;
+  color: darkred;
+}
