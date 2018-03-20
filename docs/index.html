@@ -6,6 +6,7 @@
         Wine Quizz
     </title>
     <link rel="stylesheet" href="./main.css" />
+    <script src="./main.js"></script>
 </head>
 
 <body>
@@ -15,18 +16,25 @@
         This wine quizz will let you test your knowledge of wine in a fun way!
         <br/> Try to see if you know stuff about wine!
     </p>
-    Choose your level:
-    <ul>
-        <li>
-            <a href="./beginner.html">Beginner</a>
-        </li>
-        <li>
-            <a href="./intermediate.html">Intermediate</a>
-        </li>
-        <li>
-            <a href="./advanced.html">Advanced</a>
-        </li>
-    </ul>
+    <button id="startButton">Start</button>
+    <div id="app">
+        <div id="question">
+            <div id="description"></div>
+            <div id="answer0"></div>
+            <div id="answer1"></div>
+            <div id="answer2"></div>
+            <div id="answer3"></div>
+        </div>
+        <div id="explanation">
+            <div id="description"></div>
+            <div id="answer0"></div>
+            <div id="answer1"></div>
+            <div id="answer2"></div>
+            <div id="answer3"></div>
+            <button id="explanationOk">ok</button>
+        </div>
+    </div>
+    
 </body>
 
 </html>

@@ -1,0 +1,88 @@
+{
+  "quizz": [
+    {
+      "id": 0,
+      "level": 0,
+      "country": "France",
+      "description": "Where is Chardonnay grown?",
+      "answer0": "Burgundy",
+      "answer1": "Bordeaux",
+      "answer2": "Loire",
+      "answer3": "Languedoc",
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "id": 1,
+      "level": 0,
+      "country": "France",
+      "description": "Where is Pinot noir grown?",
+      "answer0": "Bordeaux",
+      "answer1": "Corsica",
+      "answer2": "Champagne",
+      "answer3": "Loire",
+      "correctAnswer": 2,
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "level": 1,
+      "country": "Germany",
+      "description": "Which of these wines has the lowest sugar concentration?",
+      "answer0": "Kabinet",
+      "answer1": "Aulese",
+      "answer2": "Eiswein",
+      "answer3": "Cremant",
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "level": 1,
+      "country": "Spain",
+      "description": "Which one of these grapes is emblematic of the Rioja region?",
+      "answer0": "Cabernet Sauvignon",
+      "answer1": "Pedro Ximenez",
+      "answer2": "Palomino",
+      "answer3": "Tempranillo",
+      "correctAnswer": 3,
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "level": 1,
+      "country": "Italy",
+      "description": "Which grape is used in the Barollo DOCG?",
+      "answer0": "Barbera",
+      "answer1": "Dolcetto",
+      "answer2": "Nebbiolo",
+      "answer3": "Cortese",
+      "correctAnswer": 2,
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "level": 2,
+      "country": "Italy",
+      "description": "Which grape is used to make Prosecco?",
+      "answer0": "Corvina",
+      "answer1": "Cortese",
+      "answer2": "Glera",
+      "answer3": "Trebbiano",
+      "correctAnswer": 2,
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "level": 2,
+      "country": "Australia",
+      "description": "Which is Australia's Premium region for Shiraz?",
+      "answer0": "Barossa Valley",
+      "answer1": "Coonawara Valley",
+      "answer2": "Walker's Bay",
+      "answer3": "Casablanca",
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ]
+}

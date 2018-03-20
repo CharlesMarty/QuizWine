@@ -1,17 +1,41 @@
-#quizz {
+#app {
   border: 1px solid black;
   padding: 10px;
+  display: none;
 }
+#app.shown {
+  display: block;  
+} 
 
 #question {
+  display: none;
+}
+#question.shown {
+  display: block;
+} 
+
+#explanation {
+  display: none;
+}
+#explanation.shown {
+  display: block;
+} 
+
+#description {
   margin-bottom: 10px;
   font-weight: bold;
 }
 
+#answer0 {
+  font-style: italic;
+}
 #answer1 {
   font-style: italic;
 }
 #answer2 {
+  font-style: italic;
+}
+#answer3 {
   font-style: italic;
 }
 
